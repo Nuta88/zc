@@ -1,0 +1,38 @@
+div#border {
+	background: url(поле-парам.png) no-repeat center center;
+	position: relative;
+	width: 1051px;
+	height: 580px;
+}
+
+
+table {
+	position: absolute;
+	left: 310px;
+	top: 73px;
+	border-spacing: 0px;
+}
+
+td {
+	width: 142px;
+	height: 142px;
+}
+
+.crosses {
+	background: url(crosses.png) no-repeat center center;
+	z-index: 1;
+}
+
+.zeros {
+	background: url(zero.png) no-repeat center center;
+	z-index: 1;
+}
+
+
+.line {
+	position: absolute;
+	left: 310px;
+	top: 130px;
+	border-spacing: 0px;
+	z-index: 2;
+}
